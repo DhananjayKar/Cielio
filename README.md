@@ -1,16 +1,79 @@
-# React + Vite
+# Cielio 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Cielio** is a clean and responsive weather dashboard that lets you quickly check the current weather, hourly forecast, and upcoming conditions for cities around the world.  
+It focuses on clarity, smooth UI, and a minimal experience inspired by modern weather apps.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Cielio provides real-time weather information in a simple interface with a glass-style card layout and dynamic backgrounds that adapt to weather conditions and time of day. The goal of the project was to build a polished frontend experience while integrating real-world API data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Current weather for any searched city  
+- Automatic location detection (if permission is allowed)  
+- 24-hour hourly forecast  
+- 5-day forecast overview  
+- Air Quality Index (AQI) information  
+- Recent city search history  
+- Temperature unit toggle (°C / °F)  
+- Dynamic background gradients based on weather conditions  
+- Day and night theme based on the city’s local time  
+- Responsive design with horizontal scroll for hourly forecast on mobile  
+
+---
+
+## Tech Stack
+
+**Frontend**
+- React  
+- Vite  
+- Tailwind CSS  
+
+**API**
+- OpenWeather API  
+
+**Browser APIs**
+- Geolocation API  
+- LocalStorage  
+
+---
+
+## Live Demo
+
+Live Website  
+https://cielioweather.netlify.app/
+
+---
+
+## Project Purpose
+
+This project was built as a **portfolio project** to demonstrate:
+
+- API integration  
+- state management in React  
+- responsive UI design  
+- modular component structure  
+- real-world data handling  
+
+---
+
+## Author
+
+**Dhananjay Kar**  
+MERN Stack Developer  
+
+Portfolio  
+https://dhananjaykar9.vercel.app/
+
+GitHub  
+https://github.com/DhananjayKar
+
+---
+
+## Notes
+
+Cielio is designed to feel lightweight and intuitive while still providing useful weather insights. The focus was on building a realistic product-like UI rather than a basic weather demo.
