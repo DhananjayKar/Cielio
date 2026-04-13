@@ -39,7 +39,7 @@ export default function SearchBar({
 
         <button
           onClick={onLocation}
-          className="w-16 bg-white/20 border border-white/30 px-4 rounded-2xl text-white"
+          className="w-16 bg-white/20 border border-white/30 px-4 rounded-2xl text-white flex items-center justify-center"
         >
           📍
         </button>
