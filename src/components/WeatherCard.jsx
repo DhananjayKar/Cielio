@@ -6,7 +6,7 @@ export default function WeatherCard({ weather, temp }) {
   return (
     <div className="bg-white/20 border border-white/30 backdrop-blur-md rounded-3xl p-6 md:p-8 text-white">
 
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row items-center justify-between">
 
         {/* Left */}
         <div>
