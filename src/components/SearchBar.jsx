@@ -17,7 +17,7 @@ export default function SearchBar({
     <div className="mb-6 space-y-3">
 
       {/* Input Row */}
-      <div className="flex gap-2">
+      <div className="flex flex-col sm:flex-row gap-2">
         
         <input
           value={city}
