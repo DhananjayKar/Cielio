@@ -272,7 +272,7 @@ export default function App() {
   return (
 
     <div
-      className={`relative min-h-screen bg-gradient-to-br ${bg} transition-all duration-700 p-4 md:p-8 font-sans`}
+      className={`relative overflow-x-hidden min-h-screen bg-gradient-to-br ${bg} transition-all duration-700 p-4 md:p-8 font-sans`}
     >
       <div
         className={`max-w-5xl mx-auto w-full ${textColor}`}
