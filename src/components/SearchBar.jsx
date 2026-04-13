@@ -28,20 +28,22 @@ export default function SearchBar({
           placeholder="Search city..."
           className="flex-1 bg-white/20 border border-white/30 text-white placeholder-white/40 px-4 py-3 rounded-2xl backdrop-blur outline-none"
         />
-
+       {/* Buttons */}
+      <div className="flex gap-2">
         <button
           onClick={handleSubmit}
-          className="bg-white text-black px-5 rounded-2xl font-semibold"
+          className="flex-1 bg-white text-black px-5 rounded-2xl font-semibold"
         >
           Search
         </button>
 
         <button
           onClick={onLocation}
-          className="bg-white/20 border border-white/30 px-4 rounded-2xl text-white"
+          className="w-16 bg-white/20 border border-white/30 px-4 rounded-2xl text-white"
         >
           📍
         </button>
+      </div>
       </div>
 
       {/* Recent Cities */}
